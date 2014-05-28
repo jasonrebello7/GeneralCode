@@ -1,0 +1,223 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43458E8619357CAF00810FBC /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 43458E8519357CAF00810FBC /* main.cpp */; };
+		43458E8819357CAF00810FBC /* Record_Movie_and_Split_into_frames.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 43458E8719357CAF00810FBC /* Record_Movie_and_Split_into_frames.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		43458E8019357CAF00810FBC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				43458E8819357CAF00810FBC /* Record_Movie_and_Split_into_frames.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		43458E8219357CAF00810FBC /* Record Movie and Split into frames */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Record Movie and Split into frames"; sourceTree = BUILT_PRODUCTS_DIR; };
+		43458E8519357CAF00810FBC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		43458E8719357CAF00810FBC /* Record_Movie_and_Split_into_frames.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = Record_Movie_and_Split_into_frames.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43458E7F19357CAF00810FBC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43458E7919357CAF00810FBC = {
+			isa = PBXGroup;
+			children = (
+				43458E8419357CAF00810FBC /* Record Movie and Split into frames */,
+				43458E8319357CAF00810FBC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43458E8319357CAF00810FBC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43458E8219357CAF00810FBC /* Record Movie and Split into frames */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43458E8419357CAF00810FBC /* Record Movie and Split into frames */ = {
+			isa = PBXGroup;
+			children = (
+				43458E8519357CAF00810FBC /* main.cpp */,
+				43458E8719357CAF00810FBC /* Record_Movie_and_Split_into_frames.1 */,
+			);
+			path = "Record Movie and Split into frames";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43458E8119357CAF00810FBC /* Record Movie and Split into frames */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43458E8B19357CB000810FBC /* Build configuration list for PBXNativeTarget "Record Movie and Split into frames" */;
+			buildPhases = (
+				43458E7E19357CAF00810FBC /* Sources */,
+				43458E7F19357CAF00810FBC /* Frameworks */,
+				43458E8019357CAF00810FBC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Record Movie and Split into frames";
+			productName = "Record Movie and Split into frames";
+			productReference = 43458E8219357CAF00810FBC /* Record Movie and Split into frames */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43458E7A19357CAF00810FBC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Jason Rebello";
+			};
+			buildConfigurationList = 43458E7D19357CAF00810FBC /* Build configuration list for PBXProject "Record Movie and Split into frames" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 43458E7919357CAF00810FBC;
+			productRefGroup = 43458E8319357CAF00810FBC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43458E8119357CAF00810FBC /* Record Movie and Split into frames */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43458E7E19357CAF00810FBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43458E8619357CAF00810FBC /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		43458E8919357CAF00810FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		43458E8A19357CB000810FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		43458E8C19357CB000810FBC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43458E8D19357CB000810FBC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43458E7D19357CAF00810FBC /* Build configuration list for PBXProject "Record Movie and Split into frames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43458E8919357CAF00810FBC /* Debug */,
+				43458E8A19357CB000810FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43458E8B19357CB000810FBC /* Build configuration list for PBXNativeTarget "Record Movie and Split into frames" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43458E8C19357CB000810FBC /* Debug */,
+				43458E8D19357CB000810FBC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43458E7A19357CAF00810FBC /* Project object */;
+}
